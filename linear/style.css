@@ -99,7 +99,8 @@ intro
 ****************/
 .intro {
     padding: var(--padding);
-    text-align: center
+    text-align: center;
+    background: var(--gray);
 }
 .intro h2 {
     font-size: 3rem;
@@ -136,3 +137,6 @@ intro
     font-size: 1.1rem;
     line-height: 2;
 }
+/****************
+blog
+****************/
