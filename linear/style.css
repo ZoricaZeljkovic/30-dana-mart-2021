@@ -77,6 +77,11 @@ nav ul li a {
     letter-spacing: 2px;
     text-shadow: 0 0 5px var(--primary);
 }
+nav ul li a:hover {
+    color: var(--secondary);
+    transform: scale(1.1);
+    display: block;
+}
 header hgroup {
     position: absolute;
     top: 27%;
