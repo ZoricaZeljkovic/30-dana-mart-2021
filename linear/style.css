@@ -76,11 +76,12 @@ nav ul li a {
     margin: 0 20px;
     letter-spacing: 2px;
     text-shadow: 0 0 5px var(--primary);
+    display: block;
 }
 nav ul li a:hover {
     color: var(--secondary);
     transform: scale(1.1);
-    display: block;
+    
 }
 header hgroup {
     position: absolute;
@@ -220,4 +221,47 @@ footer a {
 footer a:hover {
     color: var(--white);
     transition: var(--transitions);    
+}
+
+/****************
+media
+****************/
+@media (max-width: 767px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;        
+    }
+    .intro {
+        padding: 30px 20px;
+    }
+    .intro h2 {
+        font-size: 2.5rem;
+        padding-bottom: 10px;
+    }
+    .intro article {
+        flex-wrap: wrap;
+    }
+    .intro article div {
+        flex: 0 0 100%;
+    }
+    .intro i {
+        margin-top: 30px;
+    }
+    .blog {
+        padding: 30px 20px;
+    }
+    .blog article {
+        flex: 0 0 100%;
+    }
+    .blog h3 {
+        padding-top: 20px;
+    }
+    .blog p {
+        padding: 20px 0;
+    }
+    footer {
+        padding: 50px 0;
+    }
+    
+    
 }
